@@ -9,7 +9,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         int width = 100;
         int height = 30;
-
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         Graphics g = image.getGraphics();
         g.setFont(new Font("SansSerif", Font.BOLD, 16));
