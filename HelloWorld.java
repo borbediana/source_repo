@@ -18,7 +18,6 @@ public class HelloWorld {
                 RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
         graphics.drawString("Hello", 10, 20);
 
-
         for (int y = 0; y < height; y++) {
             StringBuilder sb = new StringBuilder();
             for (int x = 0; x < width; x++) {
